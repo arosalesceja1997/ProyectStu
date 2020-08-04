@@ -20,11 +20,11 @@
     </button>
     <div id="navbarSupportedContent" class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active"><a href="/" class="nav-link text-uppercase font-weight-bold">Inicio <span
-              class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a href="/" class="nav-link text-uppercase font-weight-bold">Inicio</a></li>
         <li class="nav-item"><a href="productos.html" class="nav-link text-uppercase font-weight-bold">Productos</a>
         </li>
-        <li class="nav-item"><a href="carrito.html" class="nav-link text-uppercase font-weight-bold">Carrito</a></li>
+        <li class="nav-item active"><a href="carrito.html" class="nav-link text-uppercase font-weight-bold">Carrito<span
+              class="sr-only">(current)</span></a></li>
       </ul>
     </div>
   </nav>
@@ -33,47 +33,15 @@
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolor nihil modi assumenda vitae ipsa possimus
       temporibus explicabo tempore cumque dolorum, quisquam eos quae eum corrupti ab molestiae quasi maxime!
+      <button type="button" class="btn btn-danger" onclick="allclear()">Borrar carrito</button>
     </p>
-    <div class="row margin">
-      <div class="col-4 data">
-        <img src="Img/index.jpeg" alt="Helado">
-        <div class="text-left pt-2">
-          <h5>helado uno</h5>
-        </div>
-      </div>
-      <div class="col-4 data">
-        <img src="Img/helado2.png" alt="Helado">
-        <div class="text-left pt-2">
-          <h5>helado uno</h5>
-        </div>
-      </div>
-      <div class="col-4 data">
-        <img src="Img/helado3.jpg" alt="Helado">
-        <div class="text-left pt-2">
-          <h5>helado uno</h5>
-        </div>
-      </div>
+    <div class="row margin" id="cont">
     </div>
   </div>
 
-  <div class="medio bg-dark">
-    <div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sunt, corrupti itaque similique molestiae
-        eveniet ullam minus. Odit velit, tenetur mollitia rem cumque sequi eveniet eum beatae delectus magnam nemo?
-      </p>
-    </div>
-
-    <div class="circles">
-      <div class="chocolate">Helado de chocolate</div>
-      <div class="vainilla">Helado de vainilla</div>
-      <div class="mamey">Helado de mamey</div>
-      <div class="fresa">Helado fresa</div>
-    </div>
-
-  </div>
   <div class="relleno"></div>
 
-  <footer class="bg-dark">
+  <footer class="bg-dark mt-5">
     <div class="foo-left">
       &#169;Myweb
     </div>
@@ -90,6 +58,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/pop.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>

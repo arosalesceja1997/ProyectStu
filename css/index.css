@@ -1,0 +1,96 @@
+.container > p{
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.margin{
+  margin-top: 25px;
+}
+
+.data > img{
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.medio{
+  width: 100%;
+  padding: 25px;
+  padding-bottom: 90px;
+  /* height: 300px; */
+  margin-top: 25px;
+  color: white;
+  text-align: center;
+}
+
+.circles{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.circles > div{
+  display: block;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  border: 4px solid white;
+  padding-top: 131px;
+  margin-top: 25px;
+}
+
+.chocolate{
+  background-image: url(../Img/chocolate.jpg);
+}
+
+.vainilla{
+  background-image: url(../Img/vainilla.jpeg);
+}
+
+.mamey{
+  background-image: url(../Img/mamey.jpg);
+}
+
+.fresa{
+  background-image: url(../Img/fresa.jpg);
+}
+
+.chocolate,
+.vainilla,
+.mamey,
+.fresa{
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+
+.foo-left{
+  padding-left: 5%;
+}
+
+.foo-right{
+  padding-right: 5%;
+  cursor: pointer;
+}
+
+.relleno{
+  width: 100%;
+  height: 75px;
+}

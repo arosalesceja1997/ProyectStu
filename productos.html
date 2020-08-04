@@ -20,9 +20,9 @@
     </button>
     <div id="navbarSupportedContent" class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active"><a href="/" class="nav-link text-uppercase font-weight-bold">Inicio <span
-              class="sr-only">(current)</span></a></li>
-        <li class="nav-item"><a href="productos.html" class="nav-link text-uppercase font-weight-bold">Productos</a>
+        <li class="nav-item"><a href="/" class="nav-link text-uppercase font-weight-bold">Inicio</a></li>
+        <li class="nav-item active"><a href="productos.html" class="nav-link text-uppercase font-weight-bold">Productos
+            <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item"><a href="carrito.html" class="nav-link text-uppercase font-weight-bold">Carrito</a></li>
       </ul>
@@ -35,42 +35,65 @@
       temporibus explicabo tempore cumque dolorum, quisquam eos quae eum corrupti ab molestiae quasi maxime!
     </p>
     <div class="row margin">
-      <div class="col-4 data">
+      <div class="col-4 data mb-4">
         <img src="Img/index.jpeg" alt="Helado">
         <div class="text-left pt-2">
-          <h5>helado uno</h5>
+          <h5>
+            <button class="btn btn-success" id="1" type="submit" onclick="agregar(this)">Agregar a carrito</button>
+            Helado uno
+          </h5>
         </div>
       </div>
-      <div class="col-4 data">
+      <div class="col-4 data mb-4">
         <img src="Img/helado2.png" alt="Helado">
         <div class="text-left pt-2">
-          <h5>helado uno</h5>
+          <h5>
+            <button class="btn btn-success" type="submit" id="2" onclick="agregar(this)">Agregar a carrito</button>
+            Helado dos
+          </h5>
         </div>
       </div>
-      <div class="col-4 data">
+      <div class="col-4 data mb-4">
         <img src="Img/helado3.jpg" alt="Helado">
         <div class="text-left pt-2">
-          <h5>helado uno</h5>
+          <h5>
+            <button class="btn btn-success" type="submit" id="3" onclick="agregar(this)">Agregar a carrito</button>
+            Helado tres
+          </h5>
         </div>
       </div>
+
+      <div class="col-4 data mb-4">
+        <img src="Img/index.jpeg" alt="Helado">
+        <div class="text-left pt-2">
+          <h5>
+            <button class="btn btn-success" id="4" type="submit" onclick="agregar(this)">Agregar a carrito</button>
+            Helado cuatro
+          </h5>
+        </div>
+      </div>
+      <div class="col-4 data mb-4">
+        <img src="Img/helado2.png" alt="Helado">
+        <div class="text-left pt-2">
+          <h5>
+            <button class="btn btn-success" type="submit" id="5" onclick="agregar(this)">Agregar a carrito</button>
+            Helado cinco
+          </h5>
+        </div>
+      </div>
+      <div class="col-4 data mb-4">
+        <img src="Img/helado3.jpg" alt="Helado">
+        <div class="text-left pt-2">
+          <h5>
+            <button class="btn btn-success" type="submit" id="6" onclick="agregar(this)">Agregar a carrito</button>
+            Helado seis
+          </h5>
+        </div>
+      </div>
+
     </div>
   </div>
 
-  <div class="medio bg-dark">
-    <div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sunt, corrupti itaque similique molestiae
-        eveniet ullam minus. Odit velit, tenetur mollitia rem cumque sequi eveniet eum beatae delectus magnam nemo?
-      </p>
-    </div>
-
-    <div class="circles">
-      <div class="chocolate">Helado de chocolate</div>
-      <div class="vainilla">Helado de vainilla</div>
-      <div class="mamey">Helado de mamey</div>
-      <div class="fresa">Helado fresa</div>
-    </div>
-
-  </div>
   <div class="relleno"></div>
 
   <footer class="bg-dark">
@@ -90,6 +113,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/pop.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
